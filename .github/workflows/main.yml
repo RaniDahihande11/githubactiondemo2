@@ -13,7 +13,7 @@ jobs:
            
             - name: run extract.py
               run: python extract.py
-              working-directory: .
+              
 
     transform-data-job:
         runs-on: ubuntu-latest    
@@ -24,7 +24,7 @@ jobs:
 
             - name: run transform.py
               run: python transform.py
-              working-directory: .
+              
     
     load-data-job:
         runs-on: ubuntu-latest    
@@ -35,4 +35,4 @@ jobs:
 
             - name: run load.py
               run: python load.py
-              working-directory: .
+            
