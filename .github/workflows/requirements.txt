@@ -1,0 +1,6 @@
+pandas
+# pandas=1.9 in real time you need to mention version also, which pandas version
+# you are going to work with, for stability purpose
+#  if not then it will use always updated version, so may be got error, beacuse of updated functions 
+
+numpy
